@@ -1,0 +1,42 @@
+[project]
+name = "geocalc"
+version = "0.0.2"
+license = {file = "LICENSE.txt"}
+keywords = ["python", "geomatic", "levelling", "curves", "geodesy", "polygon", "triangle", "horizontal", "vertical"]
+authors = [
+  { name="Charles Gameti", email="gameticharles@gmail.com" },
+]
+description = "A library for geometric calculations"
+readme = "README.md"
+requires-python = ">=3.7"
+maintainers = [# Optional
+    {name = "Charles Gameti", email = "gameticharles@gmail.com" },
+    {name = "Fiifi O. Turkson", email = "fiiturkson@gmail.com" }
+]
+dependencies = [
+  "pandas", "numpy", "matplotlib"
+]
+classifiers=[
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-data = {"sample" = ["*.dat"]}
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Funding" = "https://donate.pypi.org"
+"Say Thanks!" = "http://saythanks.io/to/example"
+"Source" = "https://github.com/pypa/sampleproject/"
