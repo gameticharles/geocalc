@@ -8,6 +8,7 @@ __pycache__/
 *.so
 *~
 setup.py
+pyproject.toml
 
 # due to using tox and pytest
 .tox

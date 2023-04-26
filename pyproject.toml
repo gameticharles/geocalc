@@ -35,8 +35,8 @@ build-backend = "setuptools.build_meta"
 package-data = {"sample" = ["*.dat"]}
 
 [project.urls]  # Optional
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/gameticharles/geocalc"
+"Bug Reports" = "https://github.com/gameticharles/geocalc/issues"
 "Funding" = "https://donate.pypi.org"
 "Say Thanks!" = "http://saythanks.io/to/example"
-"Source" = "https://github.com/pypa/sampleproject/"
+"Source" = "https://github.com/gameticharles/geocalc"
